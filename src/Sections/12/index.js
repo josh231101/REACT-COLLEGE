@@ -2,6 +2,7 @@ import UseStateHook from "../12/UseStateHook";
 import CombiningHooks from "./CombiningHooks";
 import UseContextHook from "./UseContextHook";
 import UseEffectHook from "./UseEffectHook";
+import UseImperativeHandleHook from "./UseImperativeHandleHook";
 import UseLayoutEffectHook from "./UseLayoutEffectHook";
 import UseReducerHook from "./UseReducerHook";
 import UseRefHook from "./UseRefHook";
@@ -19,6 +20,7 @@ const Hooks = () => {
       <UseRefHook />
       <CombiningHooks />
       <UseReducerHook />
+      <UseImperativeHandleHook />
     </div>
   );
 };
