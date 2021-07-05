@@ -5,7 +5,7 @@ export default ({ title }) => {
     borderRadius: "0.2em",
     color: "#FFF",
     padding: "0.3em",
-    margin: "0.3em",
+    margin: "1em",
     fontSize: "14px"
   };
 

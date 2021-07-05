@@ -1,5 +1,6 @@
 import UseStateHook from "../12/UseStateHook";
 import CombiningHooks from "./CombiningHooks";
+import ReactMemo from "./ReactMemo";
 import UseContextHook from "./UseContextHook";
 import UseEffectHook from "./UseEffectHook";
 import UseImperativeHandleHook from "./UseImperativeHandleHook";
@@ -21,6 +22,7 @@ const Hooks = () => {
       <CombiningHooks />
       <UseReducerHook />
       <UseImperativeHandleHook />
+      <ReactMemo />
     </div>
   );
 };
