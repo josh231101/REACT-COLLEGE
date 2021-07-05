@@ -16,7 +16,7 @@ class LimiteErrores extends Component {
     if (tieneError) {
       return (
         <div>
-          UPs! Ocurrió un error inesperado en la aplicación :/
+          <p>UPs! Ocurrió un error inesperado en la aplicación :/ </p>
           <h2>{!!error && error.toString()}</h2>
         </div>
       );
@@ -42,8 +42,10 @@ class FailedButton extends Component {
 const Section8 = () => {
   return (
     <>
-      <h1>Sección 8: Debuggin y control de Errores</h1>
-      <span>El poderoso Chrome DevTools</span>
+      <h1 className="section-title">
+        Sección 8: Debuggin y control de Errores
+      </h1>
+      <p>El poderoso Chrome DevTools</p>
       <LimiteErrores>
         <FailedButton />
       </LimiteErrores>

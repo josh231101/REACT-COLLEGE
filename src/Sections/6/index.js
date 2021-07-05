@@ -81,7 +81,7 @@ class Graficas extends Component {
   render() {
     return (
       <div>
-        <canvas ref={this.grafica} width="300" height="300"></canvas>
+        <canvas ref={this.grafica} width="10" height="4"></canvas>
       </div>
     );
   }
@@ -100,7 +100,9 @@ const Section6 = () => {
 
   return (
     <>
-      <h1>Sección 6: Entendiendo las Refs en React</h1>
+      <h1 className="section-title">
+        Sección 6: Entendiendo las Refs en React
+      </h1>
       <Entrada />
       <Graficas />
       <FancyInput ref={myButton} />

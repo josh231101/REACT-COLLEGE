@@ -9,7 +9,9 @@ import UseRefHook from "./UseRefHook";
 const Hooks = () => {
   return (
     <div>
-      <h1>Sección 12: Master en React Hooks (componentes funcionales)</h1>
+      <h1 className="section-title">
+        Sección 12: Master en React Hooks (componentes funcionales)
+      </h1>
       <UseStateHook />
       <UseEffectHook />
       <UseLayoutEffectHook />
