@@ -1,10 +1,12 @@
 import UseStateHook from "../12/UseStateHook";
 import CombiningHooks from "./CombiningHooks";
 import ReactMemo from "./ReactMemo";
+import UseCallbackHook from "./UseCallbackHook";
 import UseContextHook from "./UseContextHook";
 import UseEffectHook from "./UseEffectHook";
 import UseImperativeHandleHook from "./UseImperativeHandleHook";
 import UseLayoutEffectHook from "./UseLayoutEffectHook";
+import UseMemoHook from "./UseMemoHook";
 import UseReducerHook from "./UseReducerHook";
 import UseRefHook from "./UseRefHook";
 
@@ -23,6 +25,8 @@ const Hooks = () => {
       <UseReducerHook />
       <UseImperativeHandleHook />
       <ReactMemo />
+      <UseCallbackHook />
+      <UseMemoHook />
     </div>
   );
 };
