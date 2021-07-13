@@ -6,6 +6,7 @@ import UseCallbackHook from "./UseCallbackHook";
 import UseContextHook from "./UseContextHook";
 import UseDebugValueHook from "./UseDebugValueHook";
 import UseEffectHook from "./UseEffectHook";
+import UseFetchHook from "./UseFetchHook";
 import UseImperativeHandleHook from "./UseImperativeHandleHook";
 import UseLayoutEffectHook from "./UseLayoutEffectHook";
 import UseMemoHook from "./UseMemoHook";
@@ -31,6 +32,7 @@ const Hooks = () => {
       <UseMemoHook />
       <CustomHooks />
       <UseDebugValueHook />
+      <UseFetchHook />
     </div>
   );
 };
